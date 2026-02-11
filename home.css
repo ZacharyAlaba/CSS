@@ -1,0 +1,53 @@
+.hero {
+    display: grid;
+    place-items: center;
+    padding: 32px 0 48px;
+}
+
+.hero-card {
+    max-width: 760px;
+    background: #ffffff;
+    color: #111111;
+    padding: 28px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    box-shadow: none;
+}
+
+.hero-card h1 {
+    font-size:  clamp(2.5rem, 4vw, 4rem);
+}
+
+.hero-card .lead {
+    color: #444444;
+}
+
+.hero-actions {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.cta {
+    box-shadow: none;
+    transition: background-color 0.2s ease;
+}
+
+.cta.primary {
+    background: #1f4e79;
+}
+
+.cta.ghost {
+    background: #ffffff;
+    color: #1f4e79;
+    border: 1px solid #1f4e79;
+}
+
+.cta:hover,
+.cta:focus-visible {
+    transform: none;
+}
+
+
+

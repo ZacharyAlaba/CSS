@@ -1,0 +1,30 @@
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 24px;
+}
+
+.info-grid article {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+}
+
+.milestones {
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 16px;
+}
+
+.milestone {
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 16px;
+    border: 1px solid #e0e0e0;
+    display: grid;
+    gap: 6px;
+}
+
